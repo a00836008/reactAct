@@ -1,0 +1,2145 @@
+{
+  "TemplateInfo": [
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Library.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 100,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netstandard1.0": "Target netstandard1.0",
+            "netstandard1.1": "Target netstandard1.1",
+            "netstandard1.2": "Target netstandard1.2",
+            "netstandard1.3": "Target netstandard1.3",
+            "netstandard1.4": "Target netstandard1.4",
+            "netstandard1.5": "Target netstandard1.5",
+            "netstandard1.6": "Target netstandard1.6"
+          },
+          "DefaultValue": "netstandard1.4"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp1.1"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard1.4"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Library.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 100,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netstandard1.6": "Target netstandard1.6"
+          },
+          "DefaultValue": "netcoreapp1.1"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp1.1"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard1.6"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Library.VisualBasic",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 100,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1",
+            "netstandard1.0": "Target netstandard1.0",
+            "netstandard1.1": "Target netstandard1.1",
+            "netstandard1.2": "Target netstandard1.2",
+            "netstandard1.3": "Target netstandard1.3",
+            "netstandard1.4": "Target netstandard1.4",
+            "netstandard1.5": "Target netstandard1.5",
+            "netstandard1.6": "Target netstandard1.6"
+          },
+          "DefaultValue": "netstandard1.4"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp1.1"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard1.4"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Console.CSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 100,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1"
+          },
+          "DefaultValue": "netcoreapp1.1"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Console.FSharp",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 100,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1"
+          },
+          "DefaultValue": "netcoreapp1.1"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4b61068b-9b98-48e9-aef4-06ae567c48cc",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "",
+      "Identity": "Microsoft.Common.Console.VisualBasic",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 100,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp1.0": "Target netcoreapp1.0",
+            "netcoreapp1.1": "Target netcoreapp1.1"
+          },
+          "DefaultValue": "netcoreapp1.1"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.CSharp.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 2000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "netstandard2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp2.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.FSharp.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 2000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "netstandard2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp2.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Library"
+      ],
+      "DefaultName": "ClassLibrary1",
+      "Description": "A project for creating a class library that targets .NET Standard or .NET Core",
+      "Identity": "Microsoft.Common.Library.VisualBasic.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Library",
+      "Precedence": 2000,
+      "Name": "Class library",
+      "ShortNameList": [
+        "classlib"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0",
+            "netstandard2.0": "Target netstandard2.0"
+          },
+          "DefaultValue": "netstandard2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ClassLibrary-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {
+        "app": {
+          "Description": "Target netcoreapp",
+          "DefaultOverrides": {
+            "Framework": "netcoreapp2.0"
+          }
+        },
+        "standard": {
+          "Description": "Target netstandard",
+          "DefaultOverrides": {
+            "Framework": "netstandard2.0"
+          }
+        }
+      },
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.CSharp.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 2000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0"
+          },
+          "DefaultValue": "netcoreapp2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.FSharp.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 2000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0"
+          },
+          "DefaultValue": "netcoreapp2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "4d181ccf-a128-49b0-b650-81cf697f04ef",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Common",
+        "Console"
+      ],
+      "DefaultName": "ConsoleApp1",
+      "Description": "A project for creating a command-line application that can run on .NET Core on Windows, Linux and macOS",
+      "Identity": "Microsoft.Common.Console.VisualBasic.2.0",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.Common.Console",
+      "Precedence": 2000,
+      "Name": "Console Application",
+      "ShortNameList": [
+        "console"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "VB": ""
+          },
+          "DefaultValue": "VB"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        },
+        "Framework": {
+          "Description": "The target framework for the project.",
+          "ChoicesAndDescriptions": {
+            "netcoreapp2.0": "Target netcoreapp2.0"
+          },
+          "DefaultValue": "netcoreapp2.0"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "TargetFrameworkOverride": {
+          "DataType": "string",
+          "DefaultValue": "",
+          "Description": "Overrides the target framework"
+        },
+        "skipRestore": {
+          "DataType": "bool",
+          "DefaultValue": "false",
+          "Description": "If specified, skips the automatic restore of the project on create.",
+          "DefaultIfOptionWithoutValue": "true"
+        }
+      },
+      "ConfigPlace": "/content/ConsoleApplication-VisualBasic/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "22f76bc9-0e02-46f8-918f-4f9a334b89fe",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Functions",
+        "Solution"
+      ],
+      "DefaultName": "Company.FunctionApp",
+      "Description": "",
+      "Identity": "Microsoft.AzureFunctions.ProjectTemplate.CSharp.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AzureFunctions.ProjectTemplates",
+      "Precedence": 100,
+      "Name": "Azure Functions",
+      "ShortNameList": [
+        "func"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "StorageConnectionStringValue": {
+          "DataType": "AzureStorage",
+          "DefaultValue": "UseDevelopmentStorage=true",
+          "Description": "The connection string for your Azure WebJobs Storage."
+        },
+        "AzureFunctionsVersion": {
+          "DataType": null,
+          "DefaultValue": "V3",
+          "Description": "The setting that determines the target release"
+        }
+      },
+      "ConfigPlace": "/content/ProjectTemplate-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "22f76bc9-0e02-46f8-918f-4f9a334b89fe",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Functions",
+        "Solution"
+      ],
+      "DefaultName": "Company.FunctionApp",
+      "Description": "",
+      "Identity": "Microsoft.AzureFunctions.ProjectTemplate.FSharp.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Microsoft.AzureFunctions.ProjectTemplates",
+      "Precedence": 100,
+      "Name": "Azure Functions",
+      "ShortNameList": [
+        "func"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "project": ""
+          },
+          "DefaultValue": "project"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "StorageConnectionStringValue": {
+          "DataType": "AzureStorage",
+          "DefaultValue": "UseDevelopmentStorage=True",
+          "Description": "The connection string for your Azure WebJobs Storage."
+        }
+      },
+      "ConfigPlace": "/content/ProjectTemplate-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "HostConfigPlace": null,
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Storage Queue"
+      ],
+      "DefaultName": "QueueTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.QueueTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.QueueTrigger",
+      "Precedence": 0,
+      "Name": "QueueTrigger",
+      "ShortNameList": [
+        "queue"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Storage connection."
+        },
+        "QueueName": {
+          "DataType": null,
+          "DefaultValue": "myqueue-items",
+          "Description": "This is the path within your storage account that the trigger will monitor."
+        }
+      },
+      "ConfigPlace": "/content/QueueTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/QueueTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Http"
+      ],
+      "DefaultName": "HttpTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.HttpTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.HttpTrigger",
+      "Precedence": 0,
+      "Name": "HttpTrigger",
+      "ShortNameList": [
+        "http"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        },
+        "AccessRights": {
+          "Description": "Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. The function and master keys are found in the 'keys' management panel on the portal, when your function is selected.",
+          "ChoicesAndDescriptions": {
+            "Function": "Function",
+            "Anonymous": "Anonymous",
+            "Admin": "Admin"
+          },
+          "DefaultValue": "Function"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/content/HttpTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/HttpTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Blob"
+      ],
+      "DefaultName": "BlobTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.BlobTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.BlobTrigger",
+      "Precedence": 0,
+      "Name": "BlobTrigger",
+      "ShortNameList": [
+        "blob"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Storage connection."
+        },
+        "Path": {
+          "DataType": null,
+          "DefaultValue": "samples-workitems",
+          "Description": "This is the path within your storage account that the trigger will monitor."
+        }
+      },
+      "ConfigPlace": "/content/BlobTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/BlobTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Timer"
+      ],
+      "DefaultName": "TimerTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.TimerTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.TimerTrigger",
+      "Precedence": 0,
+      "Name": "TimerTrigger",
+      "ShortNameList": [
+        "timer"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Schedule": {
+          "DataType": null,
+          "DefaultValue": "0 */5 * * * *",
+          "Description": "Enter a cron expression of the format '{second} {minute} {hour} {day} {month} {day of week}' to specify the schedule."
+        }
+      },
+      "ConfigPlace": "/content/TimerTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/TimerTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Durable Functions Orchestration"
+      ],
+      "DefaultName": "DurableFunctionsOrchestrationCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.DurableFunctionsOrchestration.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.DurableFunctionsOrchestration",
+      "Precedence": 0,
+      "Name": "DurableFunctionsOrchestration",
+      "ShortNameList": [
+        "durable"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/content/DurableFunctionsOrchestration-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/DurableFunctionsOrchestration-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Ouput",
+        "SendGrid"
+      ],
+      "DefaultName": "SendGridCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.SendGrid.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.SendGrid",
+      "Precedence": 0,
+      "Name": "SendGrid",
+      "ShortNameList": [
+        "sendgrid"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Storage connection."
+        },
+        "QueueName": {
+          "DataType": null,
+          "DefaultValue": "sampleMessages",
+          "Description": "This is the path within your storage account that the trigger will monitor."
+        },
+        "ApiKey": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your SendGrid developer API key."
+        },
+        "FromEmail": {
+          "DataType": null,
+          "DefaultValue": "SenderEmail@org.com",
+          "Description": "The email address the message is sent from."
+        }
+      },
+      "ConfigPlace": "/content/SendGrid-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/SendGrid-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "EventHub"
+      ],
+      "DefaultName": "EventHubTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.EventHubTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.EventHubTrigger",
+      "Precedence": 0,
+      "Name": "EventHubTrigger",
+      "ShortNameList": [
+        "eventhub"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Event Hub connection string. The connection string must have Send permissions."
+        },
+        "EventHubName": {
+          "DataType": null,
+          "DefaultValue": "samples-workitems",
+          "Description": "This is the name of the event hub to which the event will be sent."
+        }
+      },
+      "ConfigPlace": "/content/EventHubTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/EventHubTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Service Bus",
+        "Queue"
+      ],
+      "DefaultName": "ServiceBusQueueTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.ServiceBusQueueTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.ServiceBusQueueTrigger",
+      "Precedence": 0,
+      "Name": "ServiceBusQueueTrigger",
+      "ShortNameList": [
+        "squeue"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Service Bus connection string. The connection string must have Send rights."
+        },
+        "QueueName": {
+          "DataType": null,
+          "DefaultValue": "myqueue",
+          "Description": "The queue to which the message will be sent"
+        }
+      },
+      "ConfigPlace": "/content/ServiceBusQueueTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/ServiceBusQueueTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Service Bus",
+        "Topic"
+      ],
+      "DefaultName": "ServiceBusTopicTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.ServiceBusTopicTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.ServiceBusTopicTrigger",
+      "Precedence": 0,
+      "Name": "ServiceBusTopicTrigger",
+      "ShortNameList": [
+        "stopic"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Service Bus connection string. The connection string must have Send rights."
+        },
+        "TopicName": {
+          "DataType": null,
+          "DefaultValue": "mytopic",
+          "Description": "Topic to which the message will be sent."
+        },
+        "SubscriptionName": {
+          "DataType": null,
+          "DefaultValue": "mysubscription",
+          "Description": "Subscription name within the topic to bind to."
+        }
+      },
+      "ConfigPlace": "/content/ServiceBusTopicTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/ServiceBusTopicTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "EventGrid"
+      ],
+      "DefaultName": "EventGridTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.EventGridTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.EventGridTrigger",
+      "Precedence": 0,
+      "Name": "EventGridTrigger",
+      "ShortNameList": [
+        "eventgrid"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/content/EventGridTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/EventGridTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "IotHub"
+      ],
+      "DefaultName": "IotHubTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.IotHubTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.IotHubTrigger",
+      "Precedence": 0,
+      "Name": "IotHubTrigger",
+      "ShortNameList": [
+        "iothub"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Iot Hub connection string. The connection string must have Send permissions. Should include the EntityPath"
+        },
+        "Path": {
+          "DataType": null,
+          "DefaultValue": "messages/events",
+          "Description": "This is the name of the iot hub endpoint to which messages will be sent."
+        }
+      },
+      "ConfigPlace": "/content/IotHubTrigger-CSharpVS/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/IotHubTrigger-CSharpVS/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "Cosmos DB"
+      ],
+      "DefaultName": "CosmosDBTriggerCSharp",
+      "Description": "",
+      "Identity": "Azure.Function.CSharp.CosmosDBTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.CosmosDBTrigger",
+      "Precedence": 0,
+      "Name": "CosmosDBTrigger",
+      "ShortNameList": [
+        "cosmos"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "C#": ""
+          },
+          "DefaultValue": "C#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "ConnectionStringSetting": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the App Setting containing the connection string to the service that contains the collection to be monitored."
+        },
+        "DatabaseName": {
+          "DataType": null,
+          "DefaultValue": "databaseName",
+          "Description": "This is the name of the database that includes the collection to be monitored."
+        },
+        "CollectionName": {
+          "DataType": null,
+          "DefaultValue": "collectionName",
+          "Description": "This is the name of the collection to be monitored."
+        }
+      },
+      "ConfigPlace": "/content/CosmosDBTrigger-CSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/CosmosDBTrigger-CSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function"
+      ],
+      "DefaultName": "HttpTriggerFSharp",
+      "Description": "",
+      "Identity": "Azure.Function.FSharp.HttpTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.HttpTrigger",
+      "Precedence": 0,
+      "Name": "HttpTrigger",
+      "ShortNameList": [
+        "Http"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        },
+        "AccessRights": {
+          "Description": "Authorization level controls whether the function requires an API key and which key to use; Function uses a function key; Admin uses your master key. The function and master keys are found in the 'keys' management panel on the portal, when your function is selected.",
+          "ChoicesAndDescriptions": {
+            "Function": "Function",
+            "Anonymous": "Anonymous",
+            "Admin": "Admin"
+          },
+          "DefaultValue": "Function"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        }
+      },
+      "ConfigPlace": "/content/HttpTrigger-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/HttpTrigger-FSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function"
+      ],
+      "DefaultName": "BlobTriggerFSharp",
+      "Description": "",
+      "Identity": "Azure.Function.FSharp.BlobTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.BlobTrigger",
+      "Precedence": 0,
+      "Name": "BlobTrigger",
+      "ShortNameList": [
+        "Blob"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Storage connection."
+        },
+        "Path": {
+          "DataType": null,
+          "DefaultValue": "samples-workitems",
+          "Description": "This is the path within your storage account that the trigger will monitor."
+        }
+      },
+      "ConfigPlace": "/content/BlobTrigger-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/BlobTrigger-FSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function"
+      ],
+      "DefaultName": "CosmosDBTriggerFSharp",
+      "Description": "",
+      "Identity": "Azure.Function.FSharp.CosmosDBTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.CosmosDBTrigger",
+      "Precedence": 0,
+      "Name": "CosmosDBTrigger",
+      "ShortNameList": [
+        "CosmosDB"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "ConnectionStringSetting": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the App Setting containing the connection string to the service that contains the collection to be monitored."
+        },
+        "DatabaseName": {
+          "DataType": null,
+          "DefaultValue": "databaseName",
+          "Description": "This is the name of the database that includes the collection to be monitored."
+        },
+        "CollectionName": {
+          "DataType": null,
+          "DefaultValue": "collectionName",
+          "Description": "This is the name of the collection to be monitored."
+        }
+      },
+      "ConfigPlace": "/content/CosmosDBTrigger-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/CosmosDBTrigger-FSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function",
+        "Trigger",
+        "EventHub"
+      ],
+      "DefaultName": "EventHubTriggerFSharp",
+      "Description": "",
+      "Identity": "Azure.Function.FSharp.EventHubTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.EventHubTrigger",
+      "Precedence": 0,
+      "Name": "EventHubTrigger",
+      "ShortNameList": [
+        "eventhub"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Connection": {
+          "DataType": null,
+          "DefaultValue": "",
+          "Description": "The name of the app setting containing your Event Hub connection string. The connection string must have Send permissions."
+        },
+        "EventHubName": {
+          "DataType": null,
+          "DefaultValue": "samples-workitems",
+          "Description": "This is the name of the event hub to which the event will be sent."
+        }
+      },
+      "ConfigPlace": "/content/EventHubTrigger-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/EventHubTrigger-FSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    },
+    {
+      "ConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "Author": "Microsoft",
+      "Classifications": [
+        "Azure Function"
+      ],
+      "DefaultName": "TimerTriggerFSharp",
+      "Description": "",
+      "Identity": "Azure.Function.FSharp.TimerTrigger.3.x",
+      "GeneratorId": "0c434df7-e2cb-4dee-b216-d7c58c8eb4b3",
+      "GroupIdentity": "Azure.Function.TimerTrigger",
+      "Precedence": 0,
+      "Name": "TimerTrigger",
+      "ShortNameList": [
+        "Timer"
+      ],
+      "Tags": {
+        "language": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "F#": ""
+          },
+          "DefaultValue": "F#"
+        },
+        "type": {
+          "Description": null,
+          "ChoicesAndDescriptions": {
+            "item": ""
+          },
+          "DefaultValue": "item"
+        }
+      },
+      "CacheParameters": {
+        "name": {
+          "DataType": "string",
+          "DefaultValue": null,
+          "Description": "The default name symbol"
+        },
+        "namespace": {
+          "DataType": null,
+          "DefaultValue": null,
+          "Description": "namespace for the generated code"
+        },
+        "Schedule": {
+          "DataType": null,
+          "DefaultValue": "0 */5 * * * *",
+          "Description": "Enter a cron expression of the format '{second} {minute} {hour} {day} {month} {day of week}' to specify the schedule."
+        }
+      },
+      "ConfigPlace": "/content/TimerTrigger-FSharp/.template.config/template.json",
+      "LocaleConfigMountPointId": "00000000-0000-0000-0000-000000000000",
+      "LocaleConfigPlace": null,
+      "HostConfigMountPointId": "c615d71a-b64d-4294-88eb-370be32954a1",
+      "HostConfigPlace": "/content/TimerTrigger-FSharp/.template.config/vs-2017.3.host.json",
+      "ThirdPartyNotices": null,
+      "BaselineInfo": {},
+      "HasScriptRunningPostActions": false,
+      "ConfigTimestampUtc": null
+    }
+  ]
+}
