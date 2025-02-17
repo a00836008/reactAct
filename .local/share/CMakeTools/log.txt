@@ -1,0 +1,84 @@
+2024-12-04T16:58:34.836Z [debug] [main] Safe constructing new CMakeProject instance
+2024-12-04T16:58:34.837Z [debug] [variant] Constructing VariantManager
+2024-12-04T16:58:34.837Z [debug] [main] Constructing new CMakeProject instance
+2024-12-04T16:58:34.837Z [debug] [main] Starting CMake Tools second-phase init
+2024-12-04T16:58:34.838Z [debug] [expand] expanded ${workspaceFolder}
+2024-12-04T16:58:34.840Z [debug] [kit] Not reading non-existent kits file: /Users/victoriamarin/.local/share/CMakeTools/cmake-tools-kits.json
+2024-12-04T16:58:34.842Z [debug] [kit] Not reading non-existent kits file: /Users/victoriamarin/Documents/c++/semTec/.vscode/cmake-kits.json
+2024-12-04T16:58:34.893Z [info] [variant] Loaded new set of variants
+2024-12-04T16:58:34.895Z [debug] [main] CMakeProject instance initialization complete.
+2024-12-04T16:58:34.900Z [info] [kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+2024-12-04T16:58:34.911Z [debug] [kitsController] Rescanning for kits
+2024-12-04T16:58:34.911Z [debug] [kit] Scanning for Kits on system
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /opt/anaconda3/bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /opt/homebrew/bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /opt/homebrew/sbin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /usr/local/bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /usr/bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /opt/anaconda3/condabin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /System/Cryptexes/App/usr/bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /usr/sbin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /bin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Scanning directory /sbin for compilers
+2024-12-04T16:58:34.912Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-12-04T16:58:34.912Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin
+2024-12-04T16:58:34.913Z [debug] [kit] Scanning directory /Library/Apple/usr/bin for compilers
+2024-12-04T16:58:34.913Z [debug] [kit] Scanning directory /usr/local/share/dotnet for compilers
+2024-12-04T16:58:34.913Z [debug] [kit] Scanning directory /Library/Frameworks/Mono.framework/Versions/Current/Commands for compilers
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path ~/.dotnet/tools
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory ~/.dotnet/tools
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path undefined\LLVM\bin
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory undefined\LLVM\bin
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw32\bin
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw32\bin
+2024-12-04T16:58:34.913Z [debug] [kit] Skipping scan of not existing path undefined\msys64\mingw64\bin
+2024-12-04T16:58:34.913Z [debug] [kit] Found 0 kits in directory undefined\msys64\mingw64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang32\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang32\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clang64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Found 0 kits in directory undefined\msys64\clang64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Skipping scan of not existing path undefined\msys64\clangarm64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Found 0 kits in directory undefined\msys64\clangarm64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Skipping scan of not existing path undefined\msys64\ucrt64\bin
+2024-12-04T16:58:34.914Z [debug] [kit] Found 0 kits in directory undefined\msys64\ucrt64\bin
+2024-12-04T16:58:34.916Z [debug] [main] Not starting CMake driver: no kit selected
+2024-12-04T16:58:34.920Z [debug] [kit] Found 0 kits in directory /opt/homebrew/bin
+2024-12-04T16:58:34.920Z [debug] [kit] Found 0 kits in directory /opt/homebrew/sbin
+2024-12-04T16:58:34.920Z [debug] [kit] Found 0 kits in directory /opt/anaconda3/condabin
+2024-12-04T16:58:34.920Z [debug] [kit] Found 0 kits in directory /System/Cryptexes/App/usr/bin
+2024-12-04T16:58:34.921Z [debug] [kit] Found 0 kits in directory /usr/local/bin
+2024-12-04T16:58:34.921Z [debug] [kit] Found 0 kits in directory /bin
+2024-12-04T16:58:34.923Z [debug] [kit] Found 0 kits in directory /sbin
+2024-12-04T16:58:34.927Z [debug] [kit] Found 0 kits in directory /usr/sbin
+2024-12-04T16:58:34.927Z [debug] [kit] Found 0 kits in directory /Library/Apple/usr/bin
+2024-12-04T16:58:34.929Z [debug] [kit] Testing Clang binary: /usr/bin/clang
+2024-12-04T16:58:34.930Z [info] [proc] Executing command: /usr/bin/clang -v
+2024-12-04T16:58:34.932Z [debug] [kit] Testing GCC binary: /usr/bin/gcc
+2024-12-04T16:58:34.933Z [info] [proc] Executing command: /usr/bin/gcc -v
+2024-12-04T16:58:34.935Z [debug] [kit] Testing GCC binary: /usr/bin/llvm-gcc
+2024-12-04T16:58:34.935Z [info] [proc] Executing command: /usr/bin/llvm-gcc -v
+2024-12-04T16:58:34.943Z [debug] [kit] Found 0 kits in directory /usr/local/share/dotnet
+2024-12-04T16:58:34.945Z [debug] [kit] Found 0 kits in directory /Library/Frameworks/Mono.framework/Versions/Current/Commands
+2024-12-04T16:58:34.955Z [debug] [kit] Found 0 kits in directory /opt/anaconda3/bin
+2024-12-04T16:58:35.069Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-12-04T16:58:35.069Z [debug] [kit] Detected Clang compiler: /usr/bin/clang
+2024-12-04T16:58:35.069Z [debug] [kit] Bad GCC binary. "/usr/bin/llvm-gcc -v" reports version:  output: Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-12-04T16:58:35.079Z [debug] [kit] Bad GCC binary. "/usr/bin/gcc -v" reports version:  output: Apple clang version 16.0.0 (clang-1600.0.26.4)
+Target: arm64-apple-darwin24.0.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+2024-12-04T16:58:35.079Z [debug] [kit] Found 1 kits in directory /usr/bin
+2024-12-04T16:58:35.079Z [info] [kit] Found Kit (trusted): Clang 16.0.0 arm64-apple-darwin24.0.0
+2024-12-04T16:58:35.079Z [debug] [kitsController] Saving kits to /Users/victoriamarin/.local/share/CMakeTools/cmake-tools-kits.json
+2024-12-04T16:58:35.080Z [debug] [kitsController] Saving new kits to /Users/victoriamarin/.local/share/CMakeTools/cmake-tools-kits.json
+2024-12-04T19:26:46.970Z [debug] [main] Not starting CMake driver: no kit selected
+2024-12-04T19:26:48.294Z [debug] [extension] Deactivate CMakeTools

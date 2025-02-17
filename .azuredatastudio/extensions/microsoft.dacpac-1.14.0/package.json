@@ -1,0 +1,103 @@
+{
+	"name": "dacpac",
+	"displayName": "SQL Server Dacpac",
+	"description": "SQL Server Dacpac for Azure Data Studio.",
+	"version": "1.14.0",
+	"publisher": "Microsoft",
+	"preview": false,
+	"engines": {
+		"vscode": "^1.25.0",
+		"azdata": ">=1.15.0"
+	},
+	"license": "https://raw.githubusercontent.com/Microsoft/azuredatastudio/main/LICENSE.txt",
+	"icon": "images/extension.png",
+	"aiKey": "29a207bb14f84905966a8f22524cb730-25407f35-11b6-4d4e-8114-ab9e843cb52f-7380",
+	"activationEvents": [
+		"onCommand:dacFx.start"
+	],
+	"main": "./dist/extension",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Microsoft/azuredatastudio.git"
+	},
+	"capabilities": {
+		"virtualWorkspaces": false,
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
+	"extensionDependencies": [
+		"Microsoft.mssql"
+	],
+	"contributes": {
+		"configuration": [
+			{
+				"title": "%dacFx.settings%",
+				"properties": {
+					"dacFx.defaultSaveLocation": {
+						"type": "string",
+						"description": "%dacFx.defaultSaveLocation%"
+					}
+				}
+			}
+		],
+		"commands": [
+			{
+				"command": "dacFx.start",
+				"title": "%dacFx.startTitle%",
+				"category": "%dacFx.category%"
+			}
+		],
+		"menus": {
+			"objectExplorer/item/context": [
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Database && mssql:engineedition != 11",
+					"group": "export"
+				},
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Server && mssql:engineedition != 11",
+					"group": "export"
+				},
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Folder && nodeLabel == 'Databases' && mssql:engineedition != 11",
+					"group": "export"
+				}
+			],
+			"dataExplorer/context": [
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Database && mssql:engineedition != 11",
+					"group": "export"
+				},
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Server && mssql:engineedition != 11",
+					"group": "export"
+				},
+				{
+					"command": "dacFx.start",
+					"when": "connectionProvider == MSSQL && nodeType && nodeType == Folder && nodeLabel == 'Databases' && mssql:engineedition != 11",
+					"group": "export"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "dacFx.start",
+					"when": "mssql:engineedition != 11"
+				}
+			]
+		}
+	},
+	"__metadata": {
+		"id": "33",
+		"publisherDisplayName": "Microsoft",
+		"publisherId": "Microsoft",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1739479233027
+	}
+}

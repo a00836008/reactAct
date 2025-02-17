@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.external.org-jetbrains",
+    "module": "uast",
+    "version": "30.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "uast-30.1.2.jar",
+          "url": "uast-30.1.2.jar",
+          "size": 2232131,
+          "sha512": "60af79979141b604ae15a5708a16af360c842a5b254eda300d3f186c5c25d1b92d7e22273b0730d1a0abbebde63a7a67fba56ebedbdf49a036e01b8aa5d1a1af",
+          "sha256": "8a93f3c8fd35f5f2c18ba65a42bf65a11d916622f18148a0ae737ce702b02091",
+          "sha1": "d2e6c33143a00767d57e55e7bf938b72b3eacac8",
+          "md5": "abb372da42b48be093ec0dd322759f8b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uast-30.1.2.jar",
+          "url": "uast-30.1.2.jar",
+          "size": 2232131,
+          "sha512": "60af79979141b604ae15a5708a16af360c842a5b254eda300d3f186c5c25d1b92d7e22273b0730d1a0abbebde63a7a67fba56ebedbdf49a036e01b8aa5d1a1af",
+          "sha256": "8a93f3c8fd35f5f2c18ba65a42bf65a11d916622f18148a0ae737ce702b02091",
+          "sha1": "d2e6c33143a00767d57e55e7bf938b72b3eacac8",
+          "md5": "abb372da42b48be093ec0dd322759f8b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uast-30.1.2-javadoc.jar",
+          "url": "uast-30.1.2-javadoc.jar",
+          "size": 394903,
+          "sha512": "d3f57b5c52662964906a7db0b5913e29c6a28e4b995f53dc6456eed84970da8eaecb15f9441f82cfb02cd978c9e7c95da38375b976b6e12a5195a54e857da728",
+          "sha256": "ec46d46d7049a8b9e82e9aee42259aa4c5ceab33967221c6445100ea8b10d2e3",
+          "sha1": "8884cd339c053944d6db317efc21c2b6c7126839",
+          "md5": "09eb0ee0ae959b1ad2de4d8bd32549a6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "uast-30.1.2-sources.jar",
+          "url": "uast-30.1.2-sources.jar",
+          "size": 344470,
+          "sha512": "2102db847d21ce2a8b10a23e1e477a58701581c5b8fec2b43d91ad2045ea76fdb38c9fb0e8e85c4445640384712be9141d7b4a9c34e76b64bffdd6c13555030a",
+          "sha256": "59fbb4620e67f8a15b3f0e80fdc3ee6ec5812d2d1a9140ed51cbf64d7e09d74b",
+          "sha1": "501d5f346078dcd52353e7db6cb4fe638702e1f0",
+          "md5": "054a9e40256fe559ce8f13a58e60e4f2"
+        }
+      ]
+    }
+  ]
+}

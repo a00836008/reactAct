@@ -1,0 +1,169 @@
+[
+    {
+        "id": "1dbccf67d85ab355",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "67af5733a29c6bc5",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "localhost",
+        "port": "3306",
+        "db": "sensores",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "c1aad99efe4ca964",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.mqtt-dashboard.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ee3e9c5b15eb4d0a",
+        "type": "inject",
+        "z": "1dbccf67d85ab355",
+        "name": "temphum1",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"t\":45,\"h\":30}",
+        "payloadType": "str",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "6f491dae2a03327b"
+            ]
+        ]
+    },
+    {
+        "id": "4f7e2ded9b943c4f",
+        "type": "debug",
+        "z": "1dbccf67d85ab355",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6f491dae2a03327b",
+        "type": "function",
+        "z": "1dbccf67d85ab355",
+        "name": "function ",
+        "func": "var tempHum = JSON.parse(msg.payload);\nvar vTemp = tempHum.t;\nvar vHum = tempHum.h;\nmsg.topic = \"INSERT INTO temperatura (temp) VALUES (\" + vTemp + \n \");INSERT INTO humedad (humedad) VALUES (\" + vHum + \");\";\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 280,
+        "wires": [
+            [
+                "5a1ab55e13b6f579",
+                "4f7e2ded9b943c4f"
+            ]
+        ]
+    },
+    {
+        "id": "5a1ab55e13b6f579",
+        "type": "mysql",
+        "z": "1dbccf67d85ab355",
+        "mydb": "67af5733a29c6bc5",
+        "name": "",
+        "x": 680,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5492a3f821a3cef6",
+        "type": "mqtt in",
+        "z": "1dbccf67d85ab355",
+        "name": "",
+        "topic": "TempHumedad_Victoria",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c1aad99efe4ca964",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 160,
+        "y": 320,
+        "wires": [
+            [
+                "6f491dae2a03327b",
+                "5d6e326b58c0a776"
+            ]
+        ]
+    },
+    {
+        "id": "5d6e326b58c0a776",
+        "type": "debug",
+        "z": "1dbccf67d85ab355",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 380,
+        "wires": []
+    }
+]

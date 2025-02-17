@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.junit.platform",
+    "module": "junit-platform-launcher",
+    "version": "1.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "nl5ignh23jdd7pqfnyu5j6hawe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apiguardian",
+          "module": "apiguardian-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-platform-launcher-1.7.0.jar",
+          "url": "junit-platform-launcher-1.7.0.jar",
+          "size": 137159,
+          "sha512": "a3dcbcaf4563d6d2e701718f2bc4b31f925fce8f834eb4e653ea9a5b32e1a59aabcec68acd37cbceaf0bde71484921f53c171a105abeeb88e2a5b7a02f16b362",
+          "sha256": "fbdc748fde4c4279fe1d3c607447cb3b7ccd45d7338fc574f8a894ddf2d16818",
+          "sha1": "cfd2d9c8b6ff9f3880faad828454cd0166bc12d7",
+          "md5": "d1513da85c9dd6c3f22416ec2d1c496b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.junit",
+          "module": "junit-bom",
+          "version": {
+            "requires": "5.7.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apiguardian",
+          "module": "apiguardian-api",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.junit.platform",
+          "module": "junit-platform-engine",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "junit-platform-launcher-1.7.0.jar",
+          "url": "junit-platform-launcher-1.7.0.jar",
+          "size": 137159,
+          "sha512": "a3dcbcaf4563d6d2e701718f2bc4b31f925fce8f834eb4e653ea9a5b32e1a59aabcec68acd37cbceaf0bde71484921f53c171a105abeeb88e2a5b7a02f16b362",
+          "sha256": "fbdc748fde4c4279fe1d3c607447cb3b7ccd45d7338fc574f8a894ddf2d16818",
+          "sha1": "cfd2d9c8b6ff9f3880faad828454cd0166bc12d7",
+          "md5": "d1513da85c9dd6c3f22416ec2d1c496b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-platform-launcher-1.7.0-javadoc.jar",
+          "url": "junit-platform-launcher-1.7.0-javadoc.jar",
+          "size": 594953,
+          "sha512": "17691c021085c70191feec4df5114b07847f0ac820201c4d92a13c95963275a0c3e44b7e10ce7dd1029fbc4fbbb831609300c37ca360178df288d25408d8b989",
+          "sha256": "a7cc2bfef72d3f075f4bea7f46f363cbd02e833ade1d4942ae9eb2edd2319ef6",
+          "sha1": "9eb6a6a9f33a274f49c01364a1f401ec458ecb24",
+          "md5": "ffadbea80f5ec8833fc570ead744c008"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "junit-platform-launcher-1.7.0-sources.jar",
+          "url": "junit-platform-launcher-1.7.0-sources.jar",
+          "size": 82805,
+          "sha512": "cee63414bf4af458ceea31d1f4202022a2356ca527192317c8a3dd3347a5081bae0d9d179bfdbd81789b750f042b9a60f2a689c51040ce4becb1356afaf3dd67",
+          "sha256": "1fd461fc319e90cf3113211634b8be7c3093569fbc52bec420a01a17ef72ec23",
+          "sha1": "503b02634a84790ed5c8152c6bb57449af4bac9c",
+          "md5": "9aaa056fe64dce35e0d3e8a1c5829c8b"
+        }
+      ]
+    }
+  ]
+}

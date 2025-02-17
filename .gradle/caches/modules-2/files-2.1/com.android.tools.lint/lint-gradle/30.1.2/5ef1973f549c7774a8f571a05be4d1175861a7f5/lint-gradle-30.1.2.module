@@ -1,0 +1,211 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.android.tools.lint",
+    "module": "lint-gradle",
+    "version": "30.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "lint-gradle-30.1.2.jar",
+          "url": "lint-gradle-30.1.2.jar",
+          "size": 71727,
+          "sha512": "811c7284aa3535297fd7f0d02d3cb8fe0e6cfe0f37aaf01c7b21ddc201d3a51a10ee48e6e316a16f86cab5bf7cbfe9e5bf76d70a82be33998166323ece2e526c",
+          "sha256": "2f355c077faf0154166bed1578305b54a60cbb9d2b8a913a47c5f27cd836214e",
+          "sha1": "61970d6a41b90fd030b5ad6610c57dd7dc107163",
+          "md5": "2c762d899394b252f89f3dc6f29b804d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools",
+          "module": "sdk-common",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "sdklib",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "builder-model",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.external.com-intellij",
+          "module": "intellij-core",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.external.com-intellij",
+          "module": "kotlin-compiler",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.external.org-jetbrains",
+          "module": "uast",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.build",
+          "module": "manifest-merger",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools.lint",
+          "module": "lint",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "com.android",
+          "module": "zipflinger",
+          "version": {
+            "requires": "7.1.2"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "repository",
+          "version": {
+            "requires": "30.1.2"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lint-gradle-30.1.2.jar",
+          "url": "lint-gradle-30.1.2.jar",
+          "size": 71727,
+          "sha512": "811c7284aa3535297fd7f0d02d3cb8fe0e6cfe0f37aaf01c7b21ddc201d3a51a10ee48e6e316a16f86cab5bf7cbfe9e5bf76d70a82be33998166323ece2e526c",
+          "sha256": "2f355c077faf0154166bed1578305b54a60cbb9d2b8a913a47c5f27cd836214e",
+          "sha1": "61970d6a41b90fd030b5ad6610c57dd7dc107163",
+          "md5": "2c762d899394b252f89f3dc6f29b804d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lint-gradle-30.1.2-javadoc.jar",
+          "url": "lint-gradle-30.1.2-javadoc.jar",
+          "size": 425401,
+          "sha512": "68a4067d241973ddfec582297b2bf2282d943b7ce82754b14d1aa3bff14aa6ef6c3b238ba397b096cd09551dc10f2fcefc9a9af8eaf695792a8e1653ee1825dd",
+          "sha256": "79e7f4046f0b8dae20131e832fbc5daf405f12cfe544546f8d245785e00742cd",
+          "sha1": "8de754b01fb01884c33864133c71e53bac1ed463",
+          "md5": "e45f58bcc86290b4bc1a210c5b0d52f6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lint-gradle-30.1.2-sources.jar",
+          "url": "lint-gradle-30.1.2-sources.jar",
+          "size": 71493,
+          "sha512": "a7bbdbcda7fe557da2a07019c37402ec77a01353d6b7f154d78597acd8805eaff4583e5aca1e6023be463ce162f1e0d618fba6e549a03c2eb88a8890b29679ba",
+          "sha256": "99076bbd415e4d10677e74fbf8e3ae8db23969eeeb4fcdb7a068165ab5361cfb",
+          "sha1": "9d922b8c934161ae161fc2f2122a765d2418e765",
+          "md5": "d20a646c99a8dff0d44ec6e6735480d9"
+        }
+      ]
+    }
+  ]
+}

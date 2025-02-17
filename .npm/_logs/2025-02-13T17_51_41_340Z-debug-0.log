@@ -1,0 +1,42 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.13.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/victoriamarin/Library/Caches/typescript/5.4/.npmrc
+5 silly config load:file:/Users/victoriamarin/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm install @types/react@ts5.4
+8 verbose argv "install" "--ignore-scripts" "@types/react@ts5.4" "--save-dev" "--user-agent" "typesInstaller/5.4.5"
+9 verbose logfile logs-max:10 dir:/Users/victoriamarin/.npm/_logs/2025-02-13T17_51_41_340Z-
+10 verbose logfile /Users/victoriamarin/.npm/_logs/2025-02-13T17_51_41_340Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact cache-miss
+14 silly logfile done cleaning log files
+15 http fetch GET 200 https://registry.npmjs.org/@types%2freact 273ms (cache updated)
+16 silly packumentCache corgi:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+17 silly idealTree buildDeps
+18 silly fetch manifest @types/react@19.0.8
+19 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@types%2freact 81ms (cache updated)
+21 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+22 silly placeDep ROOT @types/react@19.0.8 REPLACE for:  want: 19.0.8
+23 silly reify moves {}
+24 silly audit bulk request {
+24 silly audit   '@types/less': [ '3.0.8' ],
+24 silly audit   '@types/node': [ '22.13.2' ],
+24 silly audit   '@types/react-dom': [ '19.0.3' ],
+24 silly audit   '@types/stylus': [ '0.48.43' ],
+24 silly audit   csstype: [ '3.1.3' ],
+24 silly audit   'types-registry': [ '0.1.707' ],
+24 silly audit   'undici-types': [ '6.20.0' ],
+24 silly audit   '@types/react': [ '19.0.8' ]
+24 silly audit }
+25 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 106ms
+26 silly audit report {}
+27 verbose cwd /Users/victoriamarin/Library/Caches/typescript/5.4
+28 verbose os Darwin 24.0.0
+29 verbose node v22.13.1
+30 verbose npm  v10.9.2
+31 verbose exit 0
+32 info ok

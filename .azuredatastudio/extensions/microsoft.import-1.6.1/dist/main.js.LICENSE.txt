@@ -1,0 +1,52 @@
+/*!
+ * 1DS JS SDK Core, 3.2.3
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ * (Microsoft Internal Only)
+ */
+
+/*!
+ * 1DS JS SDK POST plugin, 3.2.3
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ * (Microsoft Internal Only)
+ */
+
+/*!
+ * Application Insights JavaScript SDK - Core, 2.8.4
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * EventEmitter2
+ * https://github.com/hij1nx/EventEmitter2
+ *
+ * Copyright (c) 2013 hij1nx
+ * Licensed under the MIT license.
+ */
+
+/*!
+ * Microsoft Application Insights JavaScript SDK - Shim functions, 2.0.1
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.6
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.7
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Microsoft Dynamic Proto Utility, 1.1.9
+ * Copyright (c) Microsoft and contributors. All rights reserved.
+ */
+
+/*!
+ * Tmp
+ *
+ * Copyright (c) 2011-2017 KARASZI Istvan <github@spam.raszi.hu>
+ *
+ * MIT Licensed
+ */

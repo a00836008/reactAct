@@ -1,0 +1,405 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.testng",
+    "module": "testng",
+    "version": "7.4.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8",
+      "buildId": "dmarmovoyvaopmybjcodbe7vt4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.beust",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.78"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "jquery",
+          "version": {
+            "requires": "3.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.beust",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.78"
+          }
+        },
+        {
+          "group": "org.webjars",
+          "module": "jquery",
+          "version": {
+            "requires": "3.5.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ]
+    },
+    {
+      "name": "antApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-ant",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "antRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-ant",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "guiceApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.3"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "guice",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "no_aop"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-guice",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "guiceRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "4.2.3"
+          },
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "guice",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "no_aop"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-guice",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "junitApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-junit",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "junitRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.12"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-junit",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "yamlApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-yaml",
+          "version": "7.4.0"
+        }
+      ]
+    },
+    {
+      "name": "yamlRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "testng-7.4.0.jar",
+          "url": "testng-7.4.0.jar",
+          "size": 929395,
+          "sha512": "4a0239524b0d5dbcd957d01a465d1958529a1cfe5e37d1bfecacb7d855a0251be762316ef98987de49c16292ef92a33bead603132bacf575fb886e6a740e093c",
+          "sha256": "f28e9e881f5dcf2d197c447778369e3b2dc1a09742402577e87da58df21b86c0",
+          "sha1": "b6becc0a058e272473ac3ba983966ff507ca0300",
+          "md5": "7d287494ec24f1b1b51bf274ec17ed6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "org.testng",
+          "name": "testng-yaml",
+          "version": "7.4.0"
+        }
+      ]
+    }
+  ]
+}

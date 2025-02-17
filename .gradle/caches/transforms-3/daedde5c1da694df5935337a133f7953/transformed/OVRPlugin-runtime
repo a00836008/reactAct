@@ -1,0 +1,4 @@
+com.oculus.oculusplugin.BuildConfig
+com.oculus.utilities.BatteryReceiver
+com.oculus.utilities.HeadsetReceiver
+com.oculus.utilities.VolumeReceiver
